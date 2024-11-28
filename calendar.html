@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+    <title>Calendar</title>
+  </head>
+  <body>
+    <div class="boxClock">
+      <div id="clock"></div>
+    </div>
+    <div class="boxTimeAlive">
+      <div class="boxBirthDay">
+        <ul id="birthDay">
+          <li>
+            <input type="text" name="day" id="day" placeholder="Day" />
+          </li>
+          <li>
+            <input type="text" name="month" id="month" placeholder="Month" />
+          </li>
+          <li>
+            <input type="text" name="year" id="year" placeholder="Year" />
+          </li>
+        </ul>
+      </div>
+      <div id="timeAlive">
+        <div class="years"></div>
+        <div class="months"></div>
+        <div class="days"></div>
+      </div>
+    </div>
+
+    <script src="clock.js"></script>
+    <script src="timeAlive.js"></script>
+  </body>
+</html>
